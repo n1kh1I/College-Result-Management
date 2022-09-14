@@ -1,0 +1,32 @@
+=============== May 10, 2022 (IST) ===============
+00:18:24.810953 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+00:18:24.950566 db@open opening
+00:18:24.991135 version@stat F·[] S·0B[] Sc·[]
+00:18:25.043491 db@janitor F·2 G·0
+00:18:25.043491 db@open done T·92.925ms
+00:21:55.714820 db@close closing
+00:21:55.714820 db@close done T·0s
+=============== May 10, 2022 (IST) ===============
+00:21:59.219830 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+00:21:59.221348 version@stat F·[] S·0B[] Sc·[]
+00:21:59.221412 db@open opening
+00:21:59.221615 journal@recovery F·1
+00:21:59.222857 journal@recovery recovering @1
+00:21:59.354285 memdb@flush created L0@2 N·30167 S·2MiB "\x00\x00\xae..\x82\x88\x11,v9389":"\xff\xfc\x94..\xa5\x05\xa1,v9518"
+00:21:59.357693 version@stat F·[1] S·2MiB[2MiB] Sc·[0.25]
+00:21:59.495305 db@janitor F·3 G·0
+00:21:59.495305 db@open done T·273.8672ms
+00:23:26.878251 db@close closing
+00:23:26.878779 db@close done T·527.5µs
+=============== May 10, 2022 (IST) ===============
+00:23:30.287589 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+00:23:30.287589 version@stat F·[1] S·2MiB[2MiB] Sc·[0.25]
+00:23:30.287589 db@open opening
+00:23:30.288549 journal@recovery F·1
+00:23:30.290548 journal@recovery recovering @3
+00:23:30.440488 memdb@flush created L0@5 N·5 S·678B "Sna..tor,v30171":"unc..own,v30170"
+00:23:30.443131 version@stat F·[2] S·2MiB[2MiB] Sc·[0.50]
+00:23:30.592431 db@janitor F·4 G·0
+00:23:30.592431 db@open done T·304.842ms
+00:25:09.267706 db@close closing
+00:25:09.267706 db@close done T·0s
